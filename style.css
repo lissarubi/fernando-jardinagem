@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #fdfdfd;
+    color: #333333;
+}
+
+nav{
+    flex-direction: row;
+    width: 100%;
+    font-size: 2ch;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    text-decoration: none;
+    color: #333333;
+    border-style: solid;
+    border-color: #0000002a;
+    display: inline-block;
+    padding: 0px 20px;
+    transition: 0.4s;
+    border-radius: 40px;
+    list-style: none;
+}
+li:hover{
+    border-style: solid;
+    border-color: #0000006b;
+}
+
+#about{
+    text-align: center;
+}
+.backgroundAbout{
+    color: #fdfdfd;
+    padding: 10%;
+    text-shadow: 0px 0px 10px black;
+    font-size: 2.5ch;
+    background: url(assets/forest.jpg);
+    mask-image: linear-gradient(to top, transparent 1%, black 20%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottomText{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.3ch;
+}
+#images{
+    text-align: center;
+    margin-top: 10vh;
+}
+img{
+    max-width: 40%;
+    margin: 1.5vw;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.4);
+    border-width: 0.3vw;
+}
